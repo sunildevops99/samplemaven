@@ -24,7 +24,7 @@
   </dependencies>
   <profiles>
     <profile>
-      <id>sample-deploy</id>
+      <id>samplemaven-deploy</id>
       <distributionManagement>
         <repository>
           <id>samplemaven-releases</id>
