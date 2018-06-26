@@ -22,4 +22,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <profiles>
+    <profile>
+      <id>sample-deploy</id>
+      <distributionManagement>
+        <repository>
+          <id>samplemaven-releases</id>
+          <url>http://ec2-34-224-82-161.compute-1.amazonaws.com:8081/nexus/content/repositories/samplemaven-releases</url>
+        </repository>
+        <snapshotRepository>
+          <id>samplemaven-snapshot</id>
+          <url>http://ec2-34-224-82-161.compute-1.amazonaws.com:8081/nexus/content/repositories/samplemaven-snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
+    </profile>
+  </profiles>
 </project>
