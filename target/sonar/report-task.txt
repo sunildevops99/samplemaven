@@ -1,0 +1,5 @@
+projectKey=SampleMaven:SampleMaven
+serverUrl=http://ec2-184-72-120-99.compute-1.amazonaws.com:9000
+dashboardUrl=http://ec2-184-72-120-99.compute-1.amazonaws.com:9000/dashboard/index/SampleMaven:SampleMaven
+ceTaskId=AWRAHDzX6DZdHRQ2K2zT
+ceTaskUrl=http://ec2-184-72-120-99.compute-1.amazonaws.com:9000/api/ce/task?id=AWRAHDzX6DZdHRQ2K2zT
